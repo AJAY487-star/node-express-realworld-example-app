@@ -1,7 +1,7 @@
 version: 0.2
 env: 
   parameter-store: 
-  MONGODBURL: "/ajay/mongo"
+    MONGODBURL: "/ajay/mongo"
 phases:
   build:
     commands:
