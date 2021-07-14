@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ubuntu/
-pm2 start npm -- start
+cd /root/backend
+pm2 start --name backend npm -- start
