@@ -2,8 +2,8 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /root/backend
-    overwrite: true
+    destination: /backend
+    
 hooks:
   AfterInstall:
     - location: scripts/start.sh
